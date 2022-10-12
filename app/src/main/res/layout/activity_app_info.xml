@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vox.personalAssistant.App_Info"
+    android:background="@drawable/backgound"
+    android:id="@+id/app_info">
+
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/turn2"
+        android:id="@+id/VoxB"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOX Personal Voice Assistant"
+        android:textSize="17dp"
+        android:id="@+id/Vox1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_above="@+id/VoxB"
+        android:textStyle="bold"
+        android:textColor="#E2E5DE"
+        android:textAlignment="center"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0.0"
+        android:gravity="center"
+        android:layout_below="@+id/Vox1"
+        android:id="@+id/Vox2"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:textColor="#E2E5DE"
+      />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="infoline.helpzone@gmail.com"
+        android:textSize="15dp"
+        android:id="@+id/Vox3"
+        android:layout_below="@+id/VoxB"
+        android:textColor="#E2E5DE"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+</RelativeLayout>

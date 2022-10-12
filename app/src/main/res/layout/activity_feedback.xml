@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vox.personalAssistant.Feedback"
+    android:background="@color/black">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Feedback"
+        android:background="@color/black"
+        tools:ignore="MissingConstraints"
+
+        app:contentInsetStartWithNavigation="0dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Name"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:translationY="150dp"
+        android:background="@drawable/textbox"
+        android:textColorHint="#999"
+        android:textColor="#555"
+        android:id="@+id/Name_edit"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:hint="Feedback"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:translationY="150dp"
+        android:background="@drawable/textbox"
+        android:textColorHint="#999"
+        android:layout_marginTop="20dp"
+        android:textColor="#555"
+        android:layout_below="@+id/Name_edit"
+        android:id="@+id/Feedback_edit"
+        />
+
+
+    <Button
+        android:translationY="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Feedback"
+        android:backgroundTint="#29C5F6"
+        android:id="@+id/btn_feed"
+        android:angle="270"
+       android:textColor="#fff"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

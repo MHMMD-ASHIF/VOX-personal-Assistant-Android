@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VOX Assistant</string>
+
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="scan">Scan</string>
+    <string name="Nav">NavigationDrawer</string>
+    <string name="chatbot">ChatBot</string>
+
+
+</resources>
